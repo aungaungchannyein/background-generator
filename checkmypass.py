@@ -35,5 +35,9 @@ def main(args):
 		 print(f'{password} was not found. Carry on ')
 	return 'done'
 
-with open("demofile.txt", "r") as file
+with open("demofile.txt", "r") as file:
+	main(file)
+print("Hello World")
+print("Hello")
+
 # main(sys.argv[1:])
