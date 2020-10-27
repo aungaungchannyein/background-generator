@@ -37,4 +37,6 @@ def main(args):
 
 with open("demofile.txt", "r") as file:
 	main(file)
+
+print("Hello")
 # main(sys.argv[1:])
